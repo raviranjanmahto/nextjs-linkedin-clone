@@ -14,12 +14,14 @@ const Header = () => {
   return (
     <div className='flex items-center p-2 max-w-6xl mx-auto bottom-0 sticky top-0'>
       {/* Icon */}
-      <Image
-        src='https://cdn-icons-png.flaticon.com/512/174/174857.png'
-        alt='logo'
-        width={40}
-        height={40}
-      />
+      <Link href='/'>
+        <Image
+          src='https://cdn-icons-png.flaticon.com/512/174/174857.png'
+          alt='logo'
+          width={40}
+          height={40}
+        />
+      </Link>
 
       {/* Search */}
       <div className='flex-1'>
